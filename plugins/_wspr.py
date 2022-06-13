@@ -85,8 +85,8 @@ async def _(e):
         sur = e.builder.article(title="Type ur msg", text="You Didn't Type Your Msg")
         return await e.answer([sur])
     button = [
-        Button.inline("Secret Msg", data=f"dd_{e.id}"),
-        Button.inline("Delete Msg", data=f"del_{e.id}"),
+        Button.inline("فتح الهمسه", data=f"dd_{e.id}"),
+        Button.inline("حذف الرساله", data=f"del_{e.id}"),
     ]
     us = logi.username or logi.first_name
     sur = e.builder.article(
