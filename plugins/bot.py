@@ -88,7 +88,7 @@ from . import (
 ULTPIC = INLINE_PIC or choice(ULTROID_IMAGES)
 buttons = [
     [
-        Button.url(get_string("bot_3"), "https://github.com/TeamUltroid/Ultroid"),
+        Button.url(get_string("bot_3"), "https://github.com/BrQSource/Ultroid"),
         Button.url(get_string("bot_4"), "t.me/UltroidSupport"),
     ]
 ]
@@ -357,7 +357,7 @@ async def _(e):
         )
     else:
         await xx.edit(
-            f'<code>Your BOT is </code><strong>up-to-date</strong><code> with </code><strong><a href="https://github.com/BrQSource/Ultroid/tree/{branch}">[{branch}]</a></strong>',
+            f'<code>Your B </code><strong>up-to-date</strong><code> with </code><strong><a href="https://github.com/BrQSource/Ultroid/tree/{branch}">[{branch}]</a></strong>',
             parse_mode="html",
             link_preview=False,
         )
