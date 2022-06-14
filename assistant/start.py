@@ -56,7 +56,7 @@ _start = [
     ],
     [
         Button.inline("Sᴛᴀᴛs ✨", data="stat"),
-        Button.inline("Bʀᴏᴀᴅᴄᴀsᴛ 📻", data="bcast"),
+        Button.inline("Bʀᴏᴀᴅᴄᴀsᴛ", data="bcast"),
     ],
     [Button.inline("TɪᴍᴇZᴏɴᴇ 🌎", data="tz")],
 ]
